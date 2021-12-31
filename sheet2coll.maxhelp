@@ -67,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.0, 243.0, 60.0, 23.0 ],
+					"patching_rect" : [ 301.0, 252.0, 60.0, 23.0 ],
 					"text" : "coll4help"
 				}
 
@@ -79,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 380.0, 150.0, 65.0 ],
+					"patching_rect" : [ 274.0, 389.0, 150.0, 65.0 ],
 					"text" : "Arguments:\n- data file\n- coll object\n- delimiter (optional)"
 				}
 
@@ -92,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 248.5, 150.0, 54.0 ],
+					"patching_rect" : [ 560.0, 257.5, 150.0, 54.0 ],
 					"text" : "Choose the file's delimiter (comma [default] or tab)."
 				}
 
@@ -105,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.0, 255.5, 100.0, 40.0 ],
+					"patching_rect" : [ 366.0, 264.5, 100.0, 40.0 ],
 					"text" : "Change the coll."
 				}
 
@@ -119,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 312.5, 105.0, 54.0 ],
+					"patching_rect" : [ 23.0, 321.5, 106.0, 54.0 ],
 					"text" : "Read filepath and create coll."
 				}
 
@@ -133,7 +133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 268.0, 130.0, 40.0 ],
+					"patching_rect" : [ 47.0, 277.0, 130.0, 40.0 ],
 					"text" : "Choose file and create coll."
 				}
 
@@ -147,7 +147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.5, 210.5, 150.0, 40.0 ],
+					"patching_rect" : [ 50.5, 219.5, 150.0, 40.0 ],
 					"text" : "Create coll with current info."
 				}
 
@@ -159,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.5, 295.0, 60.5, 23.0 ],
+					"patching_rect" : [ 491.5, 304.0, 60.5, 23.0 ],
 					"text" : "comma"
 				}
 
@@ -171,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.5, 243.0, 29.5, 23.0 ],
+					"patching_rect" : [ 488.5, 252.0, 29.5, 23.0 ],
 					"text" : "tab"
 				}
 
@@ -183,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 295.0, 64.0, 23.0 ],
+					"patching_rect" : [ 283.0, 304.0, 64.0, 23.0 ],
 					"text" : "help4u"
 				}
 
@@ -195,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 169.5, 471.0, 115.0, 23.0 ],
+					"patching_rect" : [ 169.5, 480.0, 115.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -212,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 320.0, 115.0, 23.0 ],
+					"patching_rect" : [ 132.0, 329.0, 115.0, 23.0 ],
 					"text" : "read commafile.txt"
 				}
 
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 33.5, 471.0, 116.0, 23.0 ],
+					"patching_rect" : [ 33.5, 480.0, 116.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -242,7 +242,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 206.0, 217.0, 24.0, 24.0 ]
+					"patching_rect" : [ 206.0, 226.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -253,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 268.0, 42.0, 23.0 ],
+					"patching_rect" : [ 183.0, 277.0, 42.0, 23.0 ],
 					"text" : "read"
 				}
 
@@ -264,7 +264,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 355.0, 215.0, 23.0 ],
+					"patching_rect" : [ 270.0, 364.0, 215.0, 23.0 ],
 					"text" : "sheet2coll tabfile.txt coll4help tab"
 				}
 
@@ -272,12 +272,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 79.0, 703.0, 123.0 ],
-					"text" : "This object loads in a data file and outputs the information into a coll object. Save your data file as \"tab delimited text,\" \"tab separated values,\" or \"comma separated values.\" Change the file extension to .txt if necessary. It's now ready to be read into a coll.  \n\nNote: Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.\n"
+					"patching_rect" : [ 11.0, 79.0, 704.0, 137.0 ],
+					"text" : "This object loads a spreadsheet into a [coll] object.\n\nSave your spreadsheet file as \"tab delimited text,\" \"tab separated values,\" or \"comma separated values.\" Change the file extension to .txt if necessary. It's now ready to be read into [sheet2coll].  \n\nNote: Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.\n"
 				}
 
 			}
@@ -334,14 +334,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sheet2coll.maxpat",
-				"bootpath" : "~/Documents/_Actual Documents/Projects/tsvtocoll",
+				"bootpath" : "~/Documents/_Actual Documents/Projects/sheet2coll/ship",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tsvtocoll.js",
-				"bootpath" : "~/Documents/_Actual Documents/Projects/tsvtocoll",
+				"bootpath" : "~/Documents/_Actual Documents/Projects/sheet2coll/ship",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
