@@ -2,7 +2,7 @@
 
 This repo is for Max/MSP users who want to be able to convert between spreadsheets and `[coll]`s. At the moment there's only one object here:  
 
-## [sheet-to-coll]
+## [sheet2coll]
 This object loads a spreadsheet into a `[coll]`.  
 
 To get started, download this repository and add it somewhere in your Max searchpath, like your "Library" folder inside your Max folder.
