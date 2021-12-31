@@ -13,4 +13,6 @@ When you're ready to use the object, do the following:
 
 It's now ready to be read into `[sheet2coll]`. The object's help file will fill you in on how to use it.
 
-**Note:** Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.
+**Note:** Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.  
+
+Heavily adapted from Adam Murray's [max_csv_tools.](https://github.com/adamjmurray/max_csv_tools)
