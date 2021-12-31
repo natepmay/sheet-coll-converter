@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 296.0, 119.0, 777.0, 565.0 ],
+		"rect" : [ 296.0, 119.0, 806.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.0, 41.0, 150.0, 21.0 ],
-					"text" : "by Nate May    v. 0.1"
+					"text" : "by Nate May "
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 389.0, 150.0, 65.0 ],
-					"text" : "Arguments:\n- data file\n- coll object\n- delimiter (optional)"
+					"text" : "Arguments:\n- data file\n- coll\n- delimiter (optional)"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 560.0, 257.5, 150.0, 54.0 ],
-					"text" : "Choose the file's delimiter (comma [default] or tab)."
+					"text" : "Choose the file's delimiter: comma [default] or tab."
 				}
 
 			}
@@ -133,8 +133,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 277.0, 130.0, 40.0 ],
-					"text" : "Choose file and create coll."
+					"patching_rect" : [ 45.0, 268.5, 130.0, 40.0 ],
+					"text" : "Choose file and fill coll."
 				}
 
 			}
@@ -277,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 79.0, 704.0, 137.0 ],
-					"text" : "This object loads a spreadsheet into a [coll] object.\n\nSave your spreadsheet file as \"tab delimited text,\" \"tab separated values,\" or \"comma separated values.\" Change the file extension to .txt if necessary. It's now ready to be read into [sheet2coll].  \n\nNote: Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.\n"
+					"text" : "This object loads a spreadsheet into a [coll].\n\nSave your spreadsheet file as \"tab delimited text,\" \"tab separated values,\" or \"comma separated values.\" Change the file extension to .txt if necessary. It's now ready to be read into [sheet2coll].  \n\nNote: Max currently doesn't support .csv or .tsv extensions, so the input file must have the extension .txt. The good news is that all you have to do is change the extension of your existing file to .txt; no change in the format of the file itself is required.\n"
 				}
 
 			}
@@ -334,14 +334,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sheet2coll.maxpat",
-				"bootpath" : "~/Documents/_Actual Documents/Projects/sheet2coll/ship",
+				"bootpath" : "~/Documents/Max 8/Library/sheet2coll",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tsvtocoll.js",
-				"bootpath" : "~/Documents/_Actual Documents/Projects/sheet2coll/ship",
+				"bootpath" : "~/Documents/Max 8/Library/sheet2coll",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
