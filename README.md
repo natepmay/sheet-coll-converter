@@ -5,7 +5,7 @@ This repo is for Max/MSP users who want to be able to convert between spreadshee
 ## [sheet-to-coll]
 This object loads a spreadsheet into a `[coll]` object.  
 
-To get started, download this repository and add it somewhere in your Max searchpath.
+To get started, download this repository and add it somewhere in your Max searchpath, like your "Library" folder inside your Max folder.
 
 When you're ready to use the object, do the following:
 1. Save your spreadsheet file as "tab delimited text," "tab separated values," or "comma separated values."
