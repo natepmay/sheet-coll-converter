@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 218.75, 306.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.5, 349.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -54,10 +77,10 @@
 					"id" : "obj-62",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 56.0, 287.0, 31.0, 22.0 ],
-					"text" : "t b s"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "", "bang" ],
+					"patching_rect" : [ 56.0, 287.0, 41.0, 22.0 ],
+					"text" : "t b s b"
 				}
 
 			}
@@ -134,13 +157,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 351.0, 106.0, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/rauschen/Downloads/googly.txt\""
+					"patching_rect" : [ 52.0, 349.0, 124.0, 22.0 ]
 				}
 
 			}
@@ -149,7 +170,7 @@
 					"comment" : "(symbol) replaces the coll object",
 					"cool" : 1,
 					"id" : "obj-27",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -182,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.5, 342.0, 50.0, 22.0 ],
+					"patching_rect" : [ 208.5, 395.0, 50.0, 22.0 ],
 					"text" : "refer $1"
 				}
 
@@ -192,7 +213,7 @@
 					"comment" : "comma or tab sets the delimiter of the file",
 					"cool" : 1,
 					"id" : "obj-21",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -243,7 +264,7 @@
 					"comment" : "read creates a coll from specified file, bang creates from current info",
 					"hint" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -321,7 +342,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 419.5, 439.0, 65.5, 439.0 ],
+					"midpoints" : [ 419.5, 438.0, 65.5, 438.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -329,7 +350,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 169.5, 336.0, 65.5, 336.0 ],
+					"midpoints" : [ 169.5, 336.0, 61.5, 336.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -360,8 +381,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 218.0, 123.0, 285.0, 123.0, 285.0, 327.0, 218.0, 327.0 ],
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 218.0, 123.0, 285.0, 123.0, 285.0, 291.0, 228.25, 291.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -377,7 +398,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 65.5, 417.0, 51.0, 417.0, 51.0, 390.0, 65.5, 390.0 ],
+					"midpoints" : [ 61.5, 390.0, 65.5, 390.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -425,7 +446,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 77.5, 336.0, 152.5, 336.0 ],
+					"midpoints" : [ 76.5, 329.0, 166.5, 329.0 ],
 					"source" : [ "obj-62", 1 ]
 				}
 
@@ -433,8 +454,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 65.5, 312.0, 65.5, 312.0 ],
+					"midpoints" : [ 65.5, 345.0, 61.5, 345.0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 87.5, 323.0, 218.0, 323.0 ],
+					"source" : [ "obj-62", 2 ]
 				}
 
 			}
@@ -448,17 +477,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 391.5, 327.0, 218.0, 327.0 ],
-					"source" : [ "obj-69", 1 ]
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 363.5, 381.0, 65.5, 381.0 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 363.5, 317.0, 42.0, 317.0, 42.0, 390.0, 65.5, 390.0 ],
-					"source" : [ "obj-69", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 391.5, 291.0, 228.25, 291.0 ],
+					"source" : [ "obj-69", 1 ]
 				}
 
 			}
@@ -470,7 +499,40 @@
 				}
 
 			}
- ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"midpoints" : [ 218.0, 372.0, 218.0, 372.0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"midpoints" : [ 238.75, 342.0, 249.0, 342.0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 228.25, 330.0, 218.0, 330.0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "tsvtocoll.js",
+				"bootpath" : "~/Documents/Max 8/Library/sheet2coll",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
