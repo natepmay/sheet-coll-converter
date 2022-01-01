@@ -40,11 +40,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-44",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 41.0, 150.0, 21.0 ],
-					"text" : "by Nate May "
+					"patching_rect" : [ 270.0, 33.0, 492.0, 36.0 ],
+					"text" : "by Nate May. \nUpdate/contribute: https://github.com/natepmay/sheet-coll-converter"
 				}
 
 			}
